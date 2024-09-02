@@ -1,74 +1,57 @@
 document.write(`
 
-    <div class="topnavbar" id="myTopnavbar">
-    <a href="#index" >Inicio</a>
-
-    <div class="dropdownbar">
-        <button class="dropbutton">Servicios 
-            <i class="fa-bar fa-caret-down-bar"></i>
-        </button>
-        <div class="dropdown-content-bar">
-            <a href="#">Bicipuma</a>
-            <a href="#">Pumabus</a>
-            <a href="#">Estacionamientos</a>
-            <a href="#">Archivo General</a>      
-            <a href="#">Área Coordinadora de Archivo</a>        
-            <a href="#">Servicios Generales</a>
-            <a href="#">Brigada Vial</a>      
-        </div>
+<ul>
+  <li><a href="#home">Inicio</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Servicios</a>
+    <div class="dropdown-content">
+      <a href="#">Bicipuma</a>
+      <a href="#">Pumabus</a>
+      <a href="#">Estacionamientos</a>
+      <a href="#">Archivo General</a>
+      <a href="#">Área Coordinadora de Archivo</a>
+      <a href="#">Servicios Generales</a>    
+      <a href="#">Brigada Vial</a>       
     </div>
-
-    <div class="dropdownbar">
-        <button class="dropbutton">Nosotros 
-            <i class="fa-bar fa-caret-down-bar"></i>
-        </button>
-        <div class="dropdown-content-bar">
-            <a href="#">Misión y Visión</a>
-            <a href="#">Funciones</a>
-            <a href="#">Organigrama</a>
-            <a href="#">Directorio</a>          
-        </div>
-    </div> 
-
-
-    <div class="dropdownbar">
-        <button class="dropbutton">Contacto 
-            <i class="fa-bar fa-caret-down-bar"></i>
-        </button>
-        <div class="dropdown-content-bar">
-            <a href="#">Redes Sociales</a>
-            <a href="#">WhatsApp</a>          
-        </div>
-    </div> 
-
-    <div class="dropdownbar">
-        <button class="dropbutton">Comisiones 
-            <i class="fa-bar fa-caret-down-bar"></i>
-        </button>
-        <div class="dropdown-content-bar">
-            <a href="#">CInIG</a>
-            <a href="#">CLS</a>          
-        </div>
-    </div> 
-
-    <div class="dropdownbar">
-        <button class="dropbutton">Preguntas frecuentes 
-            <i class="fa-bar fa-caret-down-bar"></i>
-        </button>
-        <div class="dropdown-content-bar">
-            <a href="#">Generales</a>        
-            <a href="#">Bicipuma</a>
-            <a href="#">Pumabus</a>
-            <a href="#">Estacionamientos</a>
-            <a href="#">Archivo General</a>    
-            <a href="#">Área Coordinadora de Archivo</a>            
-            <a href="#">Servicios Generales</a>
-            <a href="#">Brigada Vial</a>      
-        </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Nosotros</a>
+    <div class="dropdown-content">
+      <a href="#">Misión y Visión</a>
+      <a href="#">Funciones</a>
+      <a href="#">Organigrama</a>
+      <a href="#">Directorio</a>
+      <a href="#">Ubicación</a>
     </div>
-
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Contacto</a>
+    <div class="dropdown-content">
+      <a href="#">Redes Sociales </a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Comisiones</a>
+    <div class="dropdown-content">
+      <a href="#">CInIG</a>
+      <a href="#">CLS</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Preguntas frecuentes</a>
+    <div class="dropdown-content">
+      <a href="#">Generales</a>
+      <a href="#">Bicipuma</a>
+      <a href="#">Pumabus</a>
+      <a href="#">Estacionamientos</a>
+      <a href="#">Archivo General</a>
+      <a href="#">Área Coordinadora de Archivo</a>      
+      <a href="#">Servicios Generales</a>
+      <a href="#">Brigada Vial</a>         
+    </div>
+  </li>
+</ul>
 
 
 <script>
